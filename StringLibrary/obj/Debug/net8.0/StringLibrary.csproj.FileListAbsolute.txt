@@ -1,0 +1,11 @@
+D:\Devops assignments\lab 4\StringLibrarySolution\StringLibrary\bin\Debug\net8.0\StringLibrary.deps.json
+D:\Devops assignments\lab 4\StringLibrarySolution\StringLibrary\bin\Debug\net8.0\StringLibrary.dll
+D:\Devops assignments\lab 4\StringLibrarySolution\StringLibrary\bin\Debug\net8.0\StringLibrary.pdb
+D:\Devops assignments\lab 4\StringLibrarySolution\StringLibrary\obj\Debug\net8.0\StringLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Devops assignments\lab 4\StringLibrarySolution\StringLibrary\obj\Debug\net8.0\StringLibrary.AssemblyInfoInputs.cache
+D:\Devops assignments\lab 4\StringLibrarySolution\StringLibrary\obj\Debug\net8.0\StringLibrary.AssemblyInfo.cs
+D:\Devops assignments\lab 4\StringLibrarySolution\StringLibrary\obj\Debug\net8.0\StringLibrary.csproj.CoreCompileInputs.cache
+D:\Devops assignments\lab 4\StringLibrarySolution\StringLibrary\obj\Debug\net8.0\StringLibrary.dll
+D:\Devops assignments\lab 4\StringLibrarySolution\StringLibrary\obj\Debug\net8.0\refint\StringLibrary.dll
+D:\Devops assignments\lab 4\StringLibrarySolution\StringLibrary\obj\Debug\net8.0\StringLibrary.pdb
+D:\Devops assignments\lab 4\StringLibrarySolution\StringLibrary\obj\Debug\net8.0\ref\StringLibrary.dll
