@@ -1,0 +1,23 @@
+trigger:
+- main
+
+pool:
+  name: Default  # Replace this if your agent pool has a different name
+
+steps:
+- task: UseDotNet@2
+  inputs:
+    packageType: 'sdk'
+    version: '8.x'
+
+- script: dotnet build
+  displayName: 'Build project'
+
+- script: dotnet pack --configuration Release
+  displayName: 'Pack the library'
+
+- task: NuGetCommand@2
+  inputs:
+    command: 'push'
+    publishVstsFeed: '<YOUR_FEED_ID>'  # Replace this
+    packagesToPush: '**/*.nupkg'
