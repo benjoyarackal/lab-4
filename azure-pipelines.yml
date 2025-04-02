@@ -2,7 +2,7 @@ trigger:
 - main
 
 pool:
-  name: Default  # Replace this if your agent pool has a different name
+  name: Default  # Replace with your self-hosted agent name if different
 
 steps:
 - task: UseDotNet@2
@@ -19,5 +19,5 @@ steps:
 - task: NuGetCommand@2
   inputs:
     command: 'push'
-    publishVstsFeed: 'Lab4Feed'  
+    publishVstsFeed: 'Lab4Feed'  # Replace with your actual feed ID
     packagesToPush: '**/*.nupkg'
