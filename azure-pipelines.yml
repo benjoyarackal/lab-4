@@ -19,5 +19,5 @@ steps:
 - task: NuGetCommand@2
   inputs:
     command: 'push'
-    publishVstsFeed: 'Lab4Feed'  
+    publishVstsFeed: 'Lab4Feed'    # ✅ This must match exactly
     packagesToPush: '**/*.nupkg'
